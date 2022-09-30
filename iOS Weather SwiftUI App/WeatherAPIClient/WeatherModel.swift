@@ -61,35 +61,35 @@ enum WeatherCode: String, Codable {
     var description: String {
         switch self {
         case .clear:
-            return "It's very sunny!\n Don't forget your hat!"
+            return "Очень солнечно!\n Не забудьте ваш головной убор!"
         case .cloudy, .mostlyCloudy:
-            return "Cloudy today!\n Watch out for some rain"
+            return "Сегодня облачно!\n Остерегайтесь дождя"
         case .mostlyClear, .partlyCloudy:
-            return "Enjoy your day!"
+            return "Хорошего вам дня!"
         case .fog, .lightFog:
-            return "Drive safe and make sure to turn on your low-beam headlights!"
+            return "Водите безопасно и обязательно включите ближний свет фар!"
         case .lightWind:
-            return "Enjoy some light breeze today!"
+            return "Наслаждайтесь легким ветерком сегодня!"
         case .wind, .strongWind:
-            return "Very windy today!"
+            return "Сегодня очень ветрено!"
         case .drizzle, .lightRain:
-            return "A bit of rain,\n don't forget your umbrella!"
+            return "Небольшой дождь,\n не забудьте зонт!"
         case .rain, .heavyRain:
-            return "Rainy today,\n don't forget your umbrella!"
+            return "Небольшой дождь,\n не забудьте зонт!"
         case .snow, .flurries, .lightSnow, .heavySnow:
-            return "What a beautiful day!\n Don't forget your mittens!"
+            return "Какой прекрасный день!\n Не забудьте варежки!"
         case .freezingDrizzle:
-            return "So cold brrr! Keep warm!"
+            return "Так холодно бррр! Держите тепло!"
         case .freezingRain, .lightFreezingRain, .heavyFreezingRain:
-            return "Drive safe, the roads might be slippery!"
+            return "Езжайте осторожно, дороги могут быть скользкими!"
         case .icePellets:
-            return "Ice Pellets"
+            return "Ледяная крупа"
         case .heavyIcePellets:
-            return "Take cover!\n Heavy hail alert!"
+            return "Укрыться!\n Опасность сильного града!"
         case .lightIcePellets:
-            return "Light Ice Pellets"
+            return "Легкий град!"
         case .thunderstorm:
-            return "Try to stay inside!\n Thunderstorm alert!"
+            return "Старайтесь оставаться внутри!\n Предупреждение о грозе!"
         }
     }
     
